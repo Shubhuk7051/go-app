@@ -32,6 +32,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+
+    - name: Checkout repository
+      uses: actions/checkout@v4
     
     - name: Run golangci-lint
       uses: golangci/golangci-lint-action@v6
