@@ -3,7 +3,7 @@ name: Go App CI/CD
 on:
   push:
     branches:
-      - main
+      - sk
     paths-ignore:
       - 'helm/**'
       - 'k8s/**'
